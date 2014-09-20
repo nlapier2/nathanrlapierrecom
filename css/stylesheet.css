@@ -1,12 +1,12 @@
 body
 {
-	padding-top: 50px;
+	padding-top: 100px;
 	padding-left: 10px;
 	font-family:garamond,serif;
 	font-weight: bold;
 }
 
-#siteheader
+.header
 {
 	font-weight: bold;
 	font-family: "Trebuchet MS",garamond,serif;
@@ -17,7 +17,8 @@ body
 	padding-top: 10px;
 }
 
-hr.style-two {
+hr.style-two
+{
     border: 0;
     height: 1px;
     background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
@@ -26,8 +27,15 @@ hr.style-two {
     background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
 }
 
-.verticalLine {
+.verticalLine
+{
     border-left: solid #B8B8B8;
     padding-right: 20px;
     padding-left: 20px;
+}
+
+#cnfsrStyle
+{
+	background-color: #FF6600;
+	color: #3B1E00;
 }
