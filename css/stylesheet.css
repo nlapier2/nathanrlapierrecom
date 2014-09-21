@@ -1,9 +1,10 @@
 body
 {
-	padding-top: 100px;
+	padding-top: 50px;
 	padding-left: 10px;
 	font-family:garamond,serif;
 	font-weight: bold;
+	background-color: #BBFBFF;
 }
 
 .header
@@ -29,7 +30,8 @@ hr.style-two
 
 .verticalLine
 {
-    border-left: solid #B8B8B8;
+    /*border-left: solid #B8B8B8;*/
+    border-left: solid #464646;
     padding-right: 20px;
     padding-left: 20px;
 }
@@ -38,4 +40,21 @@ hr.style-two
 {
 	background-color: #FF6600;
 	color: #3B1E00;
+}
+
+#tabulaterStyle
+{
+	background-color: #BFBFBF;
+	color: #4C4C4C;
+}
+
+#nanbendoStyle
+{
+	background-color: #FF9F9F;
+	color: #3B1E00;
+}
+
+#contactStyle
+{
+	background-color: #BBFBFF;
 }
