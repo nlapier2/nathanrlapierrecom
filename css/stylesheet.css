@@ -1,10 +1,12 @@
+html {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
 body
 {
-	padding-top: 50px;
-	padding-left: 10px;
 	font-family:garamond,serif;
 	font-weight: bold;
-	background-color: #BBFBFF;
 }
 
 .header
@@ -28,33 +30,35 @@ hr.style-two
     background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
 }
 
-.verticalLine
+#aboutStyle
 {
-    /*border-left: solid #B8B8B8;*/
-    border-left: solid #464646;
-    padding-right: 20px;
-    padding-left: 20px;
+	padding-left: 15px;
+	background-color: #BBFBFF;
 }
 
 #cnfsrStyle
 {
-	background-color: #FF6600;
+	padding-left: 15px;
+	background-color: #FF9333;
 	color: #3B1E00;
 }
 
 #tabulaterStyle
 {
+	padding-left: 15px;
 	background-color: #BFBFBF;
-	color: #4C4C4C;
+	color: #3B1E00;
 }
 
 #nanbendoStyle
 {
+	padding-left: 15px;
 	background-color: #FF9F9F;
 	color: #3B1E00;
 }
 
 #contactStyle
 {
+	padding-left: 15px;
 	background-color: #BBFBFF;
 }
