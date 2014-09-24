@@ -158,10 +158,41 @@
 		</div>
 		<div class="row" id="contactStyle">
 			<div class="col-md-12">
-				<br><br>
-				<p class="text-center">Thank you for visiting my website! Contact me via my email: <a href="mailto:nathanl2012@gmail.com">nathanl2012@gmail.com</a></p>
+				<br><br><br><br>
+				<p class="text-center">
+					Thank you for visiting my website! Contact me via my email: <a href="mailto:nathanl2012@gmail.com">nathanl2012@gmail.com</a>
+					<br>
+					Or, contact me using the form below:
+				</p>
 				<br><br>
 			</div>
+		</div>
+		<div class="row" id="contactStyle">
+			<div class="col-md-4"></div>
+			<div class="col-md-4">
+				<form role="form" action="MAILTO:nathanl2012@gmail.com" method="post" enctype="text/plain">
+					<div class="form-group">
+						<label for="nameInput">Name</label>
+						<input type="name" class="form-control" id="inputName" placeholder="Enter name">
+					</div>
+					<div class="form-group">
+						<label for="emailInput">Email address</label>
+						<input type="email" class="form-control" id="inputEmail" placeholder="Enter email">
+					</div>
+					<div class="form-group">
+						<label for="textInput">Subject</label>
+						<textarea cols="10" class="form-control" id="inputText" placeholder="Enter subject"></textarea>
+					</div>
+					<div class="form-group">
+						<label for="textInput">Message</label>
+						<textarea cols="10" class="form-control" id="inputText" placeholder="Enter message"></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary">Submit</button>
+					<button type="revert" class="btn btn-default">Cancel</button>
+				</form>
+				<br><br><br><br>
+			</div>
+			<div class="col-md-4">
 		</div>
 		<script src="js/jquery-2.1.1.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
